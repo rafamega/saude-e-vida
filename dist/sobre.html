@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saúde & Vida | Comida Saudável</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/saudeevida.ico" />
+    <!-- sempre abrir o projeto executar no terminal: npm run dev -->
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/59bbeee75e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="font-montserrat text-[#0e350e]">
+    <!-- navbar -->
+    <div class="border-b border-clrs-accent_dark border-opacity-70 shadow-md">
+      <nav
+        class="items-baseline justify-between bg-clrs-secondary pt-3 lg:flex lg:px-14 pb-2"
+      >
+        <div class="flex items-center justify-between px-4 py-0">
+          <h2 class="pb-2 font-caveat text-3xl text-clrs-accent_dark">
+            Saúde & Vida
+          </h2>
+          <div id="nav-btn" class="hover:cursor-pointer lg:hidden">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </div>
+        </div>
+
+        <!-- nav-links -->
+        <div
+          id="nav-links"
+          class="grid hidden justify-center justify-items-center bg-gradient-to-b from-clrs-secondary via-clrs-primary to-clrs-primary px-7 font-della text-lg lg:flex lg:gap-8 lg:bg-gradient-to-b lg:from-clrs-secondary lg:to-clrs-secondary"
+        >
+          <!-- home -->
+          <div
+            class="flex items-center gap-1.5 rounded-lg px-2 py-1 duration-300 ease-in-out hover:scale-125 lg:hover:transform-none lg:hover:bg-clrs-accent_light"
+          >
+            <div class="relative hidden text-clrs-accent_dark lg:block">
+              <i class="fa-solid fa-house relative -top-0.5 left-0 text-sm"></i>
+            </div>
+            <a href="./index.html">Home</a>
+          </div>
+          <div class="lg:hidden">
+            <i
+              class="fa-brands fa-envira text-sm text-clrs-accent_light opacity-90"
+            ></i>
+          </div>
+
+          <!-- cardápio -->
+          <div
+            class="flex items-center gap-1.5 rounded-lg px-2 py-1 duration-300 ease-in-out hover:scale-125 lg:hover:transform-none lg:hover:bg-clrs-accent_light"
+          >
+            <div class="relative hidden text-clrs-accent_dark lg:block">
+              <i
+                class="fa-solid fa-bowl-food relative -top-0.5 left-0 text-sm"
+              ></i>
+            </div>
+            <a href="./cardapio.html">Cardápio</a>
+          </div>
+          <div class="lg:hidden">
+            <i
+              class="fa-brands fa-envira text-sm text-clrs-accent_light opacity-90"
+            ></i>
+          </div>
+
+          <!-- sobre -->
+          <div
+            class="flex items-center gap-1.5 rounded-lg px-2 py-1 duration-300 ease-in-out hover:scale-125 lg:hover:transform-none lg:hover:bg-clrs-accent_light"
+          >
+            <div class="relative hidden text-clrs-accent_dark lg:block">
+              <i
+                class="fa-solid fa-kitchen-set relative -top-0.5 left-0 text-sm"
+              ></i>
+            </div>
+            <a href="./sobre.html">Sobre</a>
+          </div>
+          <div class="lg:hidden">
+            <i
+              class="fa-brands fa-envira text-sm text-clrs-accent_light opacity-90"
+            ></i>
+          </div>
+
+          <!-- contato -->
+          <div
+            class="flex items-center gap-1.5 rounded-lg px-2 py-1 duration-300 ease-in-out hover:scale-125 lg:hover:transform-none lg:hover:bg-clrs-accent_light"
+          >
+            <div class="relative hidden text-clrs-accent_dark lg:block">
+              <i class="fa-solid fa-phone relative -top-0.5 left-0 text-sm"></i>
+            </div>
+            <a href="./contato.html">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Fim navbar -->
+
+    <!-- Banner -->
+    <section
+      id="banner-sobre"
+      class="relative mx-auto h-60 shadow-md drop-shadow-md"
+    >
+      <div class="isolate px-10 py-14 text-center md:mx-40 lg:mx-72 lg:py-24">
+        <h1 class="font-quattrocento text-4xl font-bold">Sobre</h1>
+        <p class="mt-5 font-quattrocento text-lg font-semibold leading-5">
+          Um pouco sobre a cozinha da Saúde & Vida
+        </p>
+      </div>
+    </section>
+    <!-- Fim do Banner -->
+
+    <!-- Conteúdo -->
+
+    <section
+      style="background-image: url(../assets/img/bg-main.png)"
+      class="bg-clrs-primary bg-cover bg-no-repeat pb-8 grid gap-0"
+    >
+
+      <!-- 1/4 -->
+      <div>
+        <div class="flex justify-center pb-5 pt-6">
+          <h3
+            class="border-b-2 border-clrs-accent_dark font-amatic text-4xl font-bold text-clrs-accent_dark"
+          >
+            Cozinheira
+          </h3>
+        </div>
+
+        <div
+          class="mx-8 flex flex-col items-center gap-4 font-quattrocento text-lg lg:mx-auto lg:w-2/4 lg:flex-row lg:items-start border-b-2 border-dotted border-clrs-accent_light pb-8"
+        >
+          <img
+            class="hidden w-44 rounded-full border-4 border-clrs-accent_light bg-clrs-accent_light lg:block lg:w-40 shadow-md drop-shadow-md"
+            src="../assets/img/rita.jpg"
+            alt="Rita Antunes segurando diplomo, foto em preto e branco"
+          />
+          <div class="grid gap-2">
+            <p>
+              A comida é preparada pelas mãos da melhor cozinheira de São Carlos, <strong>Rita Antunes</strong>.
+            </p>
+            <p>Desde o <i>mise en place</i> até o preparo final, Rita dedica-se totalmente a entregar a melhor experiência para o cliente.</p>
+            <p>Além de já ter mãos abençoadas para culinária, Rita também fez o melhor curso de gastronomia do Brasil, no Senac de Águas de São Pedro, então além de talento, ela também tem técnica!</p>
+          </div>
+          <img
+            class="w-44 rounded-full border-4 border-clrs-accent_light bg-clrs-accent_light lg:hidden lg:w-40 shadow-md drop-shadow-md"
+            src="../assets/img/rita.jpg"
+            alt="Rita Antunes segurando diplomo, foto em preto e branco"
+          />
+        </div>
+      </div>
+
+      <!-- 2/4 -->
+      <div>
+        <div class="flex justify-center pb-5 pt-6">
+          <h3
+            class="border-b-2 border-clrs-accent_dark font-amatic text-4xl font-bold text-clrs-accent_dark"
+          >
+            Cozinha Saudável
+          </h3>
+        </div>
+
+        <div
+          class="mx-8 flex flex-col items-center gap-4 font-quattrocento text-lg lg:mx-auto lg:w-2/4 lg:flex-row lg:items-start border-b-2 border-dotted border-clrs-accent_light pb-8"
+        >
+          <div class="grid gap-2">
+            <p>O foco da Saúde & Vida é fazer marmitas sudáveis e saborosas. Todos os produtos são frescos e preparados com menores quantidades de sal, óleo e frituras, buscando atender a todos os públicos.</p>
+            <p>Com um cardápio rotativo e sempre se inovando com novas receitas, as marmitas da Saúde & Vida são uma ótima opção para quem gosta de ter uma rotina no almoço, mas sem se preocupar em ter que comer a mesma coisa todas as semanas.</p>
+          </div>
+          <img
+            class="w-44 rounded-full border-4 border-clrs-accent_light bg-clrs-accent_light lg:w-40 shadow-md drop-shadow-md"
+            src="../assets/img/marmita_3.jpg"
+            alt="Marmitas"
+          />
+        </div>
+      </div>
+
+      <!-- 3/4 -->
+      <div>
+        <div class="flex justify-center pb-5 pt-6">
+          <h3
+            class="border-b-2 border-clrs-accent_dark font-amatic text-4xl font-bold text-clrs-accent_dark"
+          >
+            Preparo
+          </h3>
+        </div>
+
+        <div
+          class="mx-8 flex flex-col items-center gap-4 font-quattrocento text-lg lg:mx-auto lg:w-2/4 lg:flex-row lg:items-start border-b-2 border-dotted border-clrs-accent_light pb-8"
+        >
+          <img
+            class="hidden w-44 rounded-full border-4 border-clrs-accent_light bg-clrs-accent_light lg:block lg:w-40 shadow-md drop-shadow-md"
+            src="../assets/img/caldos_2.jpg"
+            alt="Três potos de caldos de mandioquinha"
+          />
+          <div class="grid gap-2">
+            <p>
+              As refeições são preparadas diariamente, sempre com ingredientes frescos para oferecer a melhor
+              experiência para o cliente.
+            </p>
+            <p>Para ter a garantia da marmita, os pedidos devem ser feitos com antecedência para que seja calculada a quantidade certa na hora de comprar os produtos para evitar o desperdício. </p>
+          </div>
+          <img
+            class="w-44 rounded-full border-4 border-clrs-accent_light bg-clrs-accent_light lg:hidden lg:w-40 shadow-md drop-shadow-md"
+            src="../assets/img/caldos_2.jpg"
+            alt="Três potos de caldos de mandioquinha"
+          />
+        </div>
+      </div>
+
+      <!-- 4/4 -->
+      <div>
+        <div class="flex justify-center pb-5 pt-6">
+          <h3
+            class="border-b-2 border-clrs-accent_dark font-amatic text-4xl font-bold text-clrs-accent_dark"
+          >
+            Flexibilidade
+          </h3>
+        </div>
+
+        <div
+          class="mx-8 flex flex-col items-center gap-4 font-quattrocento text-lg lg:mx-auto lg:w-2/4 lg:flex-row lg:items-start"
+        >
+          <div class="grid gap-2">
+            <p>
+              Caso algum elemento do prato não seja do agrado, ou o cliente
+              possuir alguma restrição alimentar, sempre são oferecidas opções
+              de proteína a parte.
+            </p>
+            <p>
+              O cardápio da Saúde & Vida ainda conta com opções congeladas de alguns produtos, como
+              hamburgueres veganos de lentilha com nozes e caldos de diversos sabores.
+            </p>
+          </div>
+          <img
+            class="w-44 rounded-full border-4 border-clrs-accent_light bg-clrs-accent_light lg:w-40 shadow-md drop-shadow-md"
+            src="../assets/img/marmita_4.jpg"
+            alt="Marmitas de feijoada"
+          />
+        </div>
+      </div>
+
+    </section>
+    <!-- Fim conteúdo -->
+
+    <!-- Footer -->
+    <footer
+      class="flex justify-between border-t border-clrs-accent_dark border-opacity-70 bg-clrs-secondary px-4 py-2 text-xs brightness-95 lg:px-32"
+    >
+      <p>Saúde & Vida Alimentação - Culinária de Rita Antunes</p>
+      <p>
+        Desenvolvido por Bola de Fogo
+        <span
+          ><i class="fa-solid fa-fire opacity-70" style="color: #fc4203"></i
+        ></span>
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
